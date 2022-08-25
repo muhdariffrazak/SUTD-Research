@@ -1,11 +1,6 @@
-Compatibility Check
 
-Thursday, 25 August 2022
-
-11:28 am
-
-Compatibility check for the suggested Servo to be used to upscale the
-size of the project, to support the weight of the additional sensors
+#Compatibility check for the suggested Servo to be used to upscale the
+#size of the project, to support the weight of the additional sensors
 
 <table>
 <thead>
@@ -50,12 +45,12 @@ size of the project, to support the weight of the additional sensors
 
  
 
-**Connection to servos** for the CM-530 is done in a DAISY CHAIN METHOD
+##**Connection to servos** :for the CM-530 is done in a DAISY CHAIN METHOD
 be it the AX/MX Series
 
 >  
 
-**Area of Concern** It is used to set or test the operations of CM-530
+##**Area of Concern** :It is used to set or test the operations of CM-530
 and AX-12A using [RoboPlus
 Manager](https://emanual.robotis.com/docs/en/software/rplus1/manager/).
 Are we planning to use or using the RoboPlus Manager to test AX-12A for
@@ -65,7 +60,7 @@ our project?
 
 >  
 
-**Similarities of AX & MX series;**
+##**Similarities of AX & MX series;**
 
 -   Both run on the same communication protocol, DYNAMIXEL Protocol 1.0
 
@@ -75,7 +70,7 @@ our project?
 
  
 
-**Conclusion:**
+##**Conclusion:**
 
 -   Both the motors are compatible with the CM\_530 controller.
 
@@ -91,7 +86,7 @@ our project?
 
  
 
- **References:**
+## **References:**
 
  
 
