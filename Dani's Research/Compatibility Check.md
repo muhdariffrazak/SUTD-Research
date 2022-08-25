@@ -61,7 +61,7 @@ Manager](https://emanual.robotis.com/docs/en/software/rplus1/manager/).
 Are we planning to use or using the RoboPlus Manager to test AX-12A for
 our project?
 
-* *
+
 
 >  
 
