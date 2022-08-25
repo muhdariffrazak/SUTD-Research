@@ -45,20 +45,18 @@
 
  
 
-## **Connection to servos** :for the CM-530 is done in a DAISY CHAIN METHOD
+## **Connection to servos** :
+for the CM-530 is done in a DAISY CHAIN METHOD
 be it the AX/MX Series
 
->  
 
-## **Area of Concern** :It is used to set or test the operations of CM-530
+## **Area of Concern** :
+It is used to set or test the operations of CM-530
 and AX-12A using [RoboPlus
 Manager](https://emanual.robotis.com/docs/en/software/rplus1/manager/).
 Are we planning to use or using the RoboPlus Manager to test AX-12A for
 our project?
 
-
-
->  
 
 ## **Similarities of AX & MX series;**
 
@@ -66,9 +64,6 @@ our project?
 
 -   Both use 3pin Molex Connector for their physical connection
 
- 
-
- 
 
 ## **Conclusion:**
 
@@ -80,33 +75,21 @@ our project?
 -   No existing documentation if the CM\_530 can run both AX-12A and
     MX-64T at the same time
 
- 
-
- 
-
- 
 
 ## **References:**
-
- 
 
 Documentation for CM-530:
 
 <https://emanual.robotis.com/docs/en/parts/controller/cm-530/>
 
- 
-
 Harness compatibility guide:
 
 <https://emanual.robotis.com/docs/en/popup/cable_compatibility/>
 
- 
 
 DYNAMIXEL product compatibility guide:
 
 <https://emanual.robotis.com/docs/en/faq/faq_dynamixel/>
-
- 
 
 DYNAMIXEL robotis Products Compatibility Table:
 
