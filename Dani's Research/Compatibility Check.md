@@ -1,6 +1,7 @@
 
-# Compatibility check for the suggested Servo to be used to upscale the
-# size of the project, to support the weight of the additional sensors
+# Compatibility check 
+Documentaion for the suggested Servo to be used to upscale the 
+size of the project, to support the weight of the additional sensors
 
 <table>
 <thead>
@@ -50,6 +51,7 @@ for the CM-530 is done in a DAISY CHAIN METHOD
 be it the AX/MX Series
 
 
+
 ## **Area of Concern** :
 It is used to set or test the operations of CM-530
 and AX-12A using [RoboPlus
@@ -58,11 +60,13 @@ Are we planning to use or using the RoboPlus Manager to test AX-12A for
 our project?
 
 
+
 ## **Similarities of AX & MX series;**
 
 -   Both run on the same communication protocol, DYNAMIXEL Protocol 1.0
 
 -   Both use 3pin Molex Connector for their physical connection
+
 
 
 ## **Conclusion:**
@@ -76,7 +80,9 @@ our project?
     MX-64T at the same time
 
 
-## **References:**
+
+
+## **References:**
 
 Documentation for CM-530:
 
