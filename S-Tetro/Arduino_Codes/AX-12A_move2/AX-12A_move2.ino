@@ -1,6 +1,6 @@
 // Test motor joint mode
 
-#include "DynamixelMotor.h"
+#include "DynamixelMotor.h"      
 
 // id of the motor
 const uint8_t id2=2,id3=3;

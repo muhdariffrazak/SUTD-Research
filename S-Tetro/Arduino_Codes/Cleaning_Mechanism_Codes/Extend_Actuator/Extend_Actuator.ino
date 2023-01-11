@@ -1,12 +1,16 @@
-int lin = 6;           // the PWM pin the LED is attached to
-int brightness = 0;    // how bright the LED is
-int fadeAmount = 5;    // how many points to fade the LED by
+const int Act_PIN = 2;
 
-void setup() {
-  pinMode(lin,OUTPUT); // declare pwm pin to be an output:
+const int Shaft_max = 254;
+const int Shaft_min = 1;
+
+void setup(){
+    pinMode( Act_PIN, OUTPUT );
 }
 
-void loop() {
-  analogWrite(lin, 255); // set the brightness of led
-
+void loop(){
+    analogWrite( Act_PIN, Shaft_max );
+    delay( 10000 );
+    
+    analogWrite( Act_PIN, Shaft_min );
+    delay( 10000 );
 }
