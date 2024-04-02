@@ -1,0 +1,37 @@
+Panthera Lights Protocol and usage.
+
+The protocol is made of 11 bytes. 
+For the message to be valid, it has to follow this format, 
+
+
+* _ _ _ _ _ _ _ _ _ * 
+
+where the first and last byte must be (*)
+byte.
+
+
+Different value of each bytes switches it on and off (1,0).
+
+
+
+The different locations of where the byte is controls which light lights up:
+
+byte 0 - (checks for valid key)
+byte 1 - BrakeLight
+byte 2 - HazardLight
+byte 3 - Beacon
+byte 4 - SignalRight(soft)
+byte 5 - SignalRight(hard)
+byte 6 - SignalLeft(soft)
+byte 7 - SignalLeft(hard)
+byte 8 - Headlight(Day)
+byte 9 - Headlight(Night)
+byte 10 - (checks for valid key)
+
+
+example of valid message : *100100000*
+
+
+
+
+

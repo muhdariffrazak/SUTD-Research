@@ -1,0 +1,32 @@
+Developing a protocol for arduino:
+
+2 Phases, connection and communication
+- Connection ensures the arduino and computer are connected 
+- Communication is sending and receiving msgs
+
+
+Messages are composed of two parts:
+- Order message
+	-Tells type of action to do
+- Parameters
+	-Relevant informationn for the c
+
+To avoid filling up the buffer, one simple solution 
+is to acknowledge the reception of each messages, and 
+avoid sending new messages if the previous one were not 
+received. 
+
+That way, we won’t have a buffer overflow and no message will be lost!
+
+
+
+The Communication Protocol in a Nutshell
+
+	1. Connection, you make sure the Arduino is connected
+
+	Then, for each message you want to exchange, you send:
+
+	2. The type of order (e.g. “MOTOR”)
+
+	3. The parameters (e.g. speed)
+

@@ -1,0 +1,5 @@
+PantheraLights Libary:
+
+The default pins for signallights are as follows:
+    Right Signal Light -> pin 2
+    Left Signal Light -> pin 8
